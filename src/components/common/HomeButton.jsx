@@ -30,7 +30,7 @@ const HomeButton = ({
           bg-lime-300
           -translate-y-full
           transition-transform
-          duration-[600ms]
+          duration-600
           ease-[cubic-bezier(0.22,1,0.36,1)]
           group-hover:translate-y-0
           z-0
@@ -40,7 +40,7 @@ const HomeButton = ({
 
       {/* ICON (HAMBURGER) */}
       <span className="relative z-10 text-white transition-colors duration-300 ease-out group-hover:text-black">
-      <svg width="84" height="31.5" viewBox="0 0 168 31.5" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke="currentColor" d="M3.5 7h161m-63 17.5h63"/></svg>
+      <svg width="120" height="45" viewBox="0 0 240 45" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke="currentColor" d="M5 10h230m-90 25h90" stroke-width="1.425"/></svg>
       </span>
     </button>
   );
