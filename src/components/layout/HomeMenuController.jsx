@@ -20,7 +20,7 @@ const HomeMenuController = () => {
         <HomeButton onClick={openMenu} />
       </div>
 
-      <Menu isOpen={isMenuOpen} onClose={closeMenu} />
+      {isMenuOpen && <Menu onClose={closeMenu} />}
     </>
   );
 };
