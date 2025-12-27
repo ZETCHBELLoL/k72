@@ -27,7 +27,7 @@ const Menu = ({ onClose }) => {
             justify-center
             translate-y-[40px]
             z-10
-            pointer-events-none
+            pointer-events-auto
           "
         >
           <MenuMiddle />
