@@ -5,7 +5,7 @@ export const MENU_ITEMS = [
     label: "WORK",
     type: "images",
     text: "SEE EVERYTHING",
-    images: ["1.jpg", "2.jpg"],
+    images: ["1.png", "2.jpg"],
   },
   {
     label: "AGENCY",
